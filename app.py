@@ -52,8 +52,3 @@ def telegram_bot():
   update = request.json
   bot_telegram.bot_dotelegram(update)
   return "ok"
-
-@app.route("/salva-lista")
-def arquivolistasuja():
-  return menu + "Aqui vai o conteúdo de arquivo da lista suja"
-
