@@ -10,7 +10,7 @@ from oauth2client.service_account import ServiceAccountCredentials
 from datetime import datetime
 
 GOOGLE_SHEETS_CREDENTIALS = os.environ["GOOGLE_SHEETS_CREDENTIALS"]
-GOOGLE_SHEETS
+GOOGLE_SHEETS_KEY = os.environ["GOOGLE_SHEETS_KEY"]
 TELEGRAM_API_KEY = os.environ["TELEGRAM_API_KEY"]
 TELEGRAM_ADMIN_ID = os.environ["TELEGRAM_ADMIN_ID"]
 with open("credenciais.json", mode="w") as arquivo:
