@@ -7,11 +7,11 @@ O problema é que apenas a versão mais recente da lista é disponibilizada site
 
 A Antonieta bot é uma robô que automatiza análises sobre a lista suja mais atual e divulga os dados por meio do Telegram. 
 
-### Para conversar com a Antonieta, mande um oi para @listasujabot. 
+### Para conversar com a Antonieta, mande um oi para @listasujabot no Telegram. 
 
-O objetivo dela é fazer análises sobre as informações fornecidas na lista suja, como as atividades econômicas em que o trabalho escravo é mais frequente ou a unidade federativa em que mais trabalhadores foram resgatados. Ela também disponibiliza um link para a plataforma IPÊ, que recebe denúncias de casos de trabalho escravo.
+O objetivo dela é fazer análises sobre as informações fornecidas na lista suja, como por exemplo as atividades econômicas em que o trabalho escravo é mais frequente, a unidade federativa em que mais trabalhadores foram resgatados ou mesmo o total de trabalhadores resgatados que constam na lista suja mais atual. Ela também disponibiliza um link para a plataforma IPÊ, que recebe denúncias de casos de trabalho escravo.
 
-Antonieta também registra o arquivo da lista suja em um repositório. Ao passo que a lista suja é atualizada, a Antonieta bot registra suas atualizações e disponibiliza esses documentos para acesso público, permitindo que haja conhecimento sobre o histórico do trabalho escravo contemporâneo no país.
+Antonieta também registra o arquivo da lista suja em um repositório. Ao passo que a lista suja é atualizada, a Antonieta bot salva o link do arquivo, a data do registro e disponibiliza essas informações para acesso do público em geral, permitindo que haja maior conhecimento sobre o histórico do trabalho escravo contemporâneo no país.
 
 O nome da robô é uma homenagem à Antonieta de Barros, jornalista, professora e política natural de Desterro (atual Florianópolis), pioneira no combate à discriminação contra negros e mulheres. 
 
