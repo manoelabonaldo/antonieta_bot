@@ -17,3 +17,6 @@ O nome da robô é uma homenagem à Antonieta de Barros, jornalista, professora 
 
 ### Licença
 GNU General Public License v3.0
+
+Essa é uma robô produzida no 3º trimestre do Master em Jornalismo de Dados, Automação e Data Storytelling no Insper.
+Aluna: Manoela Bonaldo
