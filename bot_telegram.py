@@ -102,6 +102,6 @@ def bot_dotelegram(update):
    nova_mensagem = {"chat_id": chat_id, "text": texto_resposta}
    resposta = requests.post(f"https://api.telegram.org./bot{TELEGRAM_API_KEY}/sendMessage", data = nova_mensagem)
     # Atualiza planilha do sheets com último update processado
-   sheet.append_row([first_name, last_name, message,sender_id, date])
+   sheet.append_row([first_name, last_name, sender_id, message, date])
 
    return "ok"
