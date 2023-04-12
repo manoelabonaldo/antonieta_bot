@@ -8,3 +8,4 @@ pandas
 altair
 openpyxl
 xlrd
+bs4
