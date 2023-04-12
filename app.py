@@ -1,4 +1,5 @@
 import os
+
 import gspread
 import requests
 import altair as alt
@@ -17,11 +18,10 @@ TELEGRAM_API_KEY = os.environ["TELEGRAM_API_KEY"]
 TELEGRAM_ADMIN_ID = os.environ["TELEGRAM_ADMIN_ID"]
 
 #__________________________________[site]____________________________________ 
-
 app = Flask(__name__)
 
 menu = """
-<a href="/">Página inicial</a> | <a href="/arquivolistasuja">Arquivo da Lista Suja</a> | <a href="/sobre">Sobre</a> | <a href="/contato">Contato</a>
+<a href="/">Página inicial</a> | <a href="/salva-link">Arquivo da Lista Suja</a> | <a href="/sobre">Sobre</a> | <a href="/contato">Contato</a>
 <br>
 """
 
@@ -36,10 +36,6 @@ def sobre():
 @app.route("/contato")
 def contato():
   return menu + "Aqui vai o conteúdo da página Contato"
-
-@app.route("/arquivolistasuja")
-def arquivolistasuja():
-  return menu + "Aqui vai o conteúdo de arquivo da lista suja"
 
 @app.route("/dedoduro")
 def dedoduro():
