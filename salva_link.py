@@ -7,9 +7,7 @@ import os
 
 from bs4 import BeautifulSoup
 
-
 from oauth2client.service_account import ServiceAccountCredentials
-
 
 def puxa_listasuja(): 
 
