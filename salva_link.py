@@ -4,7 +4,6 @@ import requests
 import datetime
 import pytz
 import os
-import bs4
 
 from bs4 import BeautifulSoup
 
