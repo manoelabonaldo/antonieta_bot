@@ -1,6 +1,4 @@
 import os
-import os
-
 import gspread
 import requests
 import altair as alt
