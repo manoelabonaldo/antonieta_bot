@@ -1,4 +1,5 @@
-import beautifulsoup4
+import os
+from bs4 import BeautifulSoup
 import gspread
 import oauth2client
 import requests
@@ -17,7 +18,7 @@ api = gspread.authorize(conta)
 planilha = api.open_by_key("1ZDyxhXlCtCjMbyKvYmMt_8jAKN5JSoZ7x3MqlnoyzAM")
 sheet = planilha.worksheet("Sheet1")
 
-
+today = datetime.datetime.now().strftime("%Y-%m-%d")
 
 # Definir URL do site a ser verificado
 url = 'https://www.gov.br/trabalho-e-previdencia/pt-br/pt-br/composicao/orgaos-especificos/secretaria-de-trabalho/inspecao/areas-de-atuacao/combate-ao-trabalho-escravo-e-analogo-ao-de-escravo'
@@ -43,4 +44,4 @@ else:
     print("Não foi encontrado nenhum arquivo .xlsx files contendo a expressão 'cadastro_de_empregadores'.")
     
 lista_sujaatual = link
-sheet.append_row([lista_sujaatual])
+sheet.append_row([lista_sujaatual, today])
