@@ -1,4 +1,5 @@
 import os
+import os
 
 import gspread
 import requests
@@ -12,6 +13,7 @@ from tchan import ChannelScraper
 from datetime import datetime
 
 import bot_telegram
+import salva_link
 
 TELEGRAM_API_KEY = os.environ["TELEGRAM_API_KEY"]
 TELEGRAM_ADMIN_ID = os.environ["TELEGRAM_ADMIN_ID"]
@@ -52,3 +54,8 @@ def telegram_bot():
   update = request.json
   bot_telegram.bot_dotelegram(update)
   return "ok"
+
+@app.route("/salva-link")
+def repositorio_listasuja():
+  salva_link.puxa_listasuja()
+  return menu + "esse é o link de acesso ao repositório da lista suja do trabalho escravo: https://docs.google.com/spreadsheets/d/1xR0Xy-m_UWpxofHRf66xX2O50keDnAlexIFdQTOBa2Q/edit#gid=0"
